@@ -1,0 +1,21 @@
+# Keep recordings, annotations, participant data and generated outputs local.
+*.wav
+*.WAV
+*.mp3
+*.flac
+*.TextGrid
+*.textgrid
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.rds
+*.RData
+.Rhistory
+.Rproj.user/
+results/
+R_results/
+data/
+participants/
+.env
+.Renviron
