@@ -1,10 +1,8 @@
-# Keep recordings, annotations, participant data and generated outputs local.
-*.wav
-*.WAV
+# Recordings, annotations and participant data must stay local.
+*.[wW][aA][vV]
 *.mp3
 *.flac
-*.TextGrid
-*.textgrid
+*.[tT][eE][xX][tT][gG][rR][iI][dD]
 *.csv
 *.tsv
 *.xlsx
@@ -13,9 +11,14 @@
 *.RData
 .Rhistory
 .Rproj.user/
+.Renviron
+.env
 results/
 R_results/
+reviewed/
 data/
 participants/
-.env
-.Renviron
+TEST_RESULTS.csv
+TEST_SESSION.txt
+# Exactly this deterministic, clearly synthetic example is intentionally public.
+!/synthetic_measurements.csv
